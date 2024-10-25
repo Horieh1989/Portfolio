@@ -641,6 +641,9 @@ section {
 .main-btn .btn-text {
   padding: 0 2rem;
 }
+.main-btn .submit-btn{
+  
+}
 .main-btn .btn-icon {
   background-color: var(--color-secondary);
   display: flex;
@@ -1192,3 +1195,4 @@ section {
       margin-right: 5px; /* Reduce space between icons */
   }
 }
+/* send message buttom */
