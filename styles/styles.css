@@ -7,7 +7,7 @@
 
 :root {
   --color-primary: #191d2b;
-  --color-secondary: #27AE60;
+  --color-secondary: #d897f9;
   --color-white: #FFFFFF;
   --color-black: #000;
   --color-grey0: #f8f8f8;
@@ -17,6 +17,7 @@
   --color-grey-4: #454e56;
   --color-grey-5: #2a2e35;
   --color-grey-6: #12181b;
+  --color-grey-7: #12181b;;
   --br-sm-2: 14px;
   --box-shadow-1: 0 3px 15px rgba(0,0,0,.3);
 }
@@ -171,22 +172,24 @@ section {
   clip-path: polygon(0 0, 46% 0, 79% 100%, 0% 100%);
 }
 .header-content .left-header .image {
-  border-radius: var(--br-sm-2);
+ border-radius: 50%;;
   height: 90%;
   width: 68%;
   margin-left: 4rem;
   background-color: var(--color-black);
   transition: all 0.4s ease-in-out;
+  overflow: hidden;
 }
 .header-content .left-header .image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   transition: all 0.4s ease-in-out;
-  filter: grayscale(100%);
+  filter: grayscale(0);
 }
 .header-content .left-header .image img:hover {
-  filter: grayscale(0);
+  
+  filter: grayscale(100%);
 }
 .header-content .right-header {
   display: flex;
@@ -962,3 +965,160 @@ section {
 }
 
 /*# sourceMappingURL=styles.css.map */
+
+
+
+
+
+
+
+.about-stats {
+  margin: 20px; /* Adjust as needed */
+}
+
+.stat-title {
+  font-size: 24px; /* Title size */
+  margin-bottom: 15px; /* Space below title */
+}
+
+.progress-bars {
+  display: flex;
+  flex-direction: column; /* Stack progress bars */
+}
+
+.progress-bar {
+  display: flex; /* Flexbox for alignment */
+  align-items: center; /* Center items vertically */
+  margin-bottom: 15px; /* Space between progress bars */
+}
+
+.prog-title {
+  display: flex; /* Flexbox for icon and text */
+  align-items: center; /* Center icon and text vertically */
+  margin-right: 15px; /* Space between title and progress bar */
+  font-size: 18px; /* Title font size */
+}
+
+.prog-title img {
+  width: 24px; /* Adjust icon size */
+  height: 24px; /* Maintain aspect ratio */
+  margin-right: 8px; /* Space between icon and skill name */
+}
+
+.progress-con {
+  flex-grow: 1; /* Allow the progress container to grow */
+}
+
+.prog-text {
+  margin-bottom: 5px; /* Space between text and bar */
+}
+
+.progress {
+  background: #eee; /* Background color for progress bar */
+  border-radius: 5px; /* Rounded corners */
+  width: 100%; /* Full width */
+  height: 10px; /* Height of the progress bar */
+}
+
+.progress span {
+  display: block; /* Display the skill level */
+  height: 100%; /* Full height of the progress bar */
+  background-color: #4caf50; /* Color for progress */
+  border-radius: 5px; /* Rounded corners */
+}
+
+
+
+
+.portfolio-item {
+  margin: 20px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 640px;
+}
+
+.video {
+  margin-bottom: 15px;
+}
+
+.project-details {
+  margin-top: 15px;
+}
+
+.project-details h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.project-description {
+  font-size: 1em;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.icon i {
+  font-size: 1.5em;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.icon i:hover {
+  color: #ffcc00; /* Customize hover color */
+}
+
+
+
+
+.portfolios {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Space between rows */
+}
+
+.row {
+  display: flex;
+  gap: 20px; /* Space between items in the row */
+  justify-content: center;
+}
+
+.portfolio-item {
+  width: 48%; /* Each item takes 50% of the row, with some margin */
+  background-color: #f4f4f4;
+  padding: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.video video {
+  width: 100%; /* Full width of the container */
+  height: auto;
+}
+
+.project-details {
+  margin-top: 10px;
+}
+
+.project-description {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.icons .icon {
+  margin-right: 10px;
+}
+
+
+
+
+
