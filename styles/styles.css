@@ -622,6 +622,13 @@ section {
 }
 
 /*Independed components*/
+.submit-btn {
+  display: flex;
+  gap: 15px; /* Adds space between buttons */
+  align-items: center;
+  
+}
+
 .btn-con {
   display: flex;
   align-self: flex-start;
@@ -637,13 +644,14 @@ section {
   align-self: flex-start;
   align-items: center;
   overflow: hidden;
+  
 }
 .main-btn .btn-text {
   padding: 0 2rem;
 }
-.main-btn .submit-btn{
+
   
-}
+
 .main-btn .btn-icon {
   background-color: var(--color-secondary);
   display: flex;
