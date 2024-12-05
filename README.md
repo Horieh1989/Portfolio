@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+# Portfolio
+Welcome to my portfolio! I am a web developer skilled in HTML, CSS, SCSS, and JavaScript. This site showcases my projects, featuring a responsive design and interactive elements. Each project highlights the technologies used and includes links to the source code. Explore my work and feel free to reach out for collaboration!
+=======
 # Introduction 
 TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
 
@@ -18,3 +22,4 @@ If you want to learn more about creating good readme files then refer the follow
 - [ASP.NET Core](https://github.com/aspnet/Home)
 - [Visual Studio Code](https://github.com/Microsoft/vscode)
 - [Chakra Core](https://github.com/Microsoft/ChakraCore)
+>>>>>>> cbd27e5ad631c410b53fea62acd8ed683e1df28e
